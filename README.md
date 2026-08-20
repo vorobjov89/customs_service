@@ -52,6 +52,29 @@ uv run python -c "from sentence_transformers import SentenceTransformer; Sentenc
 uv run python run.py --data ./data --out ./out
 ```
 
+Чтобы запускать командой
+
+```bash
+python run.py --data ./data --out ./out
+```
+сначала потребуется активировать виртуальное окружение. На macOS/Linux
+
+```bash
+source .venv/bin/activate
+```
+
+на Windows PowerShell:
+
+```powershell
+source .venv\Scripts\Activate.ps1
+```
+
+на Windows CMD:
+
+```cmd
+source .venv\Scripts\activate.bat
+```
+
 В результате создаётся файл:
 
 ```text
